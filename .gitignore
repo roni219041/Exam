@@ -5,3 +5,27 @@
 /.vs/ExamProject/v16/.suo
 /.vs
 /ExamProj/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+/ExamProj/.vs/ExamProj/v16/.suo
+/ExamProj/.vs/ExamProj/config
+/ExamProj/bin/Debug/netcoreapp3.1
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+/obj
+/bin/Debug/netcoreapp3.1
+
+/ExamProj/obj/Release/netcoreapp3.1
+/ExamProj/obj/Debug/netcoreapp3.1/staticwebassets
+/ExamProj/.vs/ExamProj/DesignTimeBuild
+/ExamProj/obj/Debug/netcoreapp3.1/ExamProj.Views.pdb
+/ExamProj/obj/Debug/netcoreapp3.1
