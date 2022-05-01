@@ -95,7 +95,7 @@ namespace ExamProj.Controllers
 
                     existingUser.FirstName = user.FirstName;
                     existingUser.LastName = user.LastName;
-                    existingUser.PhoneNumber = user.PhoneNumber;
+                    //existingUser.PhoneNumber = user.PhoneNumber;
                     var result = await _userManager.UpdateAsync(existingUser);
                     if (!result.Succeeded)
                     {

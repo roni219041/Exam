@@ -108,24 +108,28 @@ namespace ExamProj.Controllers
             return uniqueFileName;
         }
         // GET: QueryController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(Guid? id)
         {
+            if (id == null || id == Guid.Empty)
+            {
+                return NotFound();
+            }
+            var serviceFromDb = _context.Queries.Find(id);
             return View();
         }
 
         // POST: QueryController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(Query query)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                return RedirectToAction(nameof(Index));
+                _context.Queries.Update(query);
+                _context.SaveChanges();
+                return RedirectToAction("Index", "Home");
             }
-            catch
-            {
-                return View();
-            }
+            return View();
         }
 
         // GET: QueryController/Delete/5
