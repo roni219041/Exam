@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Veronika\\source\\repos\\ExamProj\\ExamProj.csproj": {}
+    "C:\\Veronika\\IT career\\Софтуерно инженерство\\ExamProject\\ExamProj\\ExamProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Veronika\\source\\repos\\ExamProj\\ExamProj.csproj": {
+    "C:\\Veronika\\IT career\\Софтуерно инженерство\\ExamProject\\ExamProj\\ExamProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Veronika\\source\\repos\\ExamProj\\ExamProj.csproj",
+        "projectUniqueName": "C:\\Veronika\\IT career\\Софтуерно инженерство\\ExamProject\\ExamProj\\ExamProj.csproj",
         "projectName": "ExamProj",
-        "projectPath": "C:\\Users\\Veronika\\source\\repos\\ExamProj\\ExamProj.csproj",
+        "projectPath": "C:\\Veronika\\IT career\\Софтуерно инженерство\\ExamProject\\ExamProj\\ExamProj.csproj",
         "packagesPath": "C:\\Users\\Veronika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Veronika\\source\\repos\\ExamProj\\obj\\",
+        "outputPath": "C:\\Veronika\\IT career\\Софтуерно инженерство\\ExamProject\\ExamProj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Veronika\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Enums.NET": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.24, )"
@@ -52,6 +56,10 @@
               "target": "Package",
               "version": "[3.1.24, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.24, )"
@@ -59,6 +67,18 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.24, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.4.0, )"
             }
           },
           "imports": [
